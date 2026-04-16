@@ -30,7 +30,7 @@ let sessionId = null;     // Current game session_id
 let currentState = null;  // Latest GameStateResponse from backend
 
 document.addEventListener("DOMContentLoaded", () => {
-    const BASE_URL = "https://urp-backend-final.onrender.com";
+    const BASE_URL = "https://game-2-backend.onrender.com";
 
     function switchToStudentTab() {
         const tabButtons = document.querySelectorAll(".tab-btn");
